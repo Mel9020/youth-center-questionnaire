@@ -1,0 +1,73 @@
+/* Basic text styles for print */
+body {
+  background: white;
+  color: black;
+  font-size: 12pt;
+  font-family: Georgia, serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Container formatting for better print layout */
+.container {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  box-shadow: none;
+  border: none;
+}
+
+/* Headings and structure */
+h1 {
+  text-align: center;
+  font-size: 18pt;
+  color: black;
+  margin-bottom: 20px;
+}
+
+fieldset {
+  border: 1px solid #000;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+legend {
+  font-weight: bold;
+  font-size: 13pt;
+  color: black;
+}
+
+/* Form input styling */
+input[type="text"],
+select,
+textarea {
+  border: 1px solid #000;
+  padding: 4px;
+  font-size: 11pt;
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+
+label {
+  font-size: 11pt;
+  margin-bottom: 6px;
+  display: block;
+}
+
+/* Hide submit button in print */
+input[type="submit"] {
+  display: none;
+}
+
+/* QR code styling */
+.qr-section {
+  text-align: center;
+  margin-top: 30px;
+  page-break-before: avoid;
+}
+
+.qr-section img {
+  width: 150px;
+  height: 150px;
+  margin-top:
